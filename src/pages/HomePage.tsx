@@ -1,6 +1,5 @@
-
 import { Link } from "react-router-dom";
-import { Recycle, Leaf, Plant, SewingNeedle } from "lucide-react";
+import { Recycle, Leaf, Sprout, Scissors } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import Hero from "@/components/Hero";
 
@@ -42,7 +41,7 @@ const HomePage = () => {
 
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="bg-rewear-green/10 p-4 inline-block rounded-full mb-4">
-                <SewingNeedle className="h-8 w-8 text-rewear-green" />
+                <Scissors className="h-8 w-8 text-rewear-green" />
               </div>
               <h3 className="text-xl font-medium mb-2">Artisan Support</h3>
               <p className="text-gray-600 text-sm">
@@ -62,7 +61,7 @@ const HomePage = () => {
 
             <div className="bg-gray-50 p-6 rounded-lg text-center">
               <div className="bg-rewear-green/10 p-4 inline-block rounded-full mb-4">
-                <Plant className="h-8 w-8 text-rewear-green" />
+                <Sprout className="h-8 w-8 text-rewear-green" />
               </div>
               <h3 className="text-xl font-medium mb-2">Community Impact</h3>
               <p className="text-gray-600 text-sm">
@@ -180,7 +179,7 @@ const HomePage = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="bg-rewear-green/10 p-2 rounded-full mt-1">
-                    <SewingNeedle className="h-4 w-4 text-rewear-green" />
+                    <Scissors className="h-4 w-4 text-rewear-green" />
                   </div>
                   <div>
                     <h3 className="font-medium">145 Artisans Supported</h3>
@@ -191,7 +190,7 @@ const HomePage = () => {
                 </div>
                 <div className="flex items-start gap-3">
                   <div className="bg-rewear-green/10 p-2 rounded-full mt-1">
-                    <Plant className="h-4 w-4 text-rewear-green" />
+                    <Sprout className="h-4 w-4 text-rewear-green" />
                   </div>
                   <div>
                     <h3 className="font-medium">500+ Children Educated</h3>

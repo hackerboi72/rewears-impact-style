@@ -1,5 +1,4 @@
-
-import { Leaf, SewingNeedle, Plant } from "lucide-react";
+import { Leaf, Scissors, Sprout } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -63,7 +62,7 @@ const AboutPage = () => {
             
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="bg-rewear-green/10 p-4 inline-block rounded-full mb-4">
-                <SewingNeedle className="h-8 w-8 text-rewear-green" />
+                <Scissors className="h-8 w-8 text-rewear-green" />
               </div>
               <h3 className="text-xl font-medium mb-3">Craftsmanship</h3>
               <p className="text-gray-600">
@@ -74,7 +73,7 @@ const AboutPage = () => {
             
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="bg-rewear-green/10 p-4 inline-block rounded-full mb-4">
-                <Plant className="h-8 w-8 text-rewear-green" />
+                <Sprout className="h-8 w-8 text-rewear-green" />
               </div>
               <h3 className="text-xl font-medium mb-3">Community</h3>
               <p className="text-gray-600">

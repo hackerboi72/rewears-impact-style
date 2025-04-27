@@ -1,6 +1,5 @@
-
 import { useState } from "react";
-import { Recycle, Leaf, Plant, SewingNeedle } from "lucide-react";
+import { Recycle, Leaf, Sprout, Scissors } from "lucide-react";
 import StatCard from "@/components/StatCard";
 import { Progress } from "@/components/ui/progress";
 import {
@@ -41,12 +40,12 @@ const ImpactPage = () => {
             <StatCard 
               number="145" 
               label="Artisans Supported" 
-              icon={<SewingNeedle className="h-8 w-8" />} 
+              icon={<Scissors className="h-8 w-8" />} 
             />
             <StatCard 
               number="523" 
               label="Children Educated" 
-              icon={<Plant className="h-8 w-8" />} 
+              icon={<Sprout className="h-8 w-8" />} 
             />
             <StatCard 
               number="32,500kg" 
@@ -203,15 +202,15 @@ const ImpactPage = () => {
                       />
                       <ul className="space-y-2">
                         <li className="flex items-start gap-3">
-                          <Plant className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Sprout className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Provided education support for over 500 children</span>
                         </li>
                         <li className="flex items-start gap-3">
-                          <Plant className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Sprout className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Funded 3 community development projects in textile-producing regions</span>
                         </li>
                         <li className="flex items-start gap-3">
-                          <Plant className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Sprout className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Organized 25 sustainable fashion workshops educating over 750 people</span>
                         </li>
                       </ul>
@@ -252,15 +251,15 @@ const ImpactPage = () => {
                       />
                       <ul className="space-y-2">
                         <li className="flex items-start gap-3">
-                          <SewingNeedle className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Scissors className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Supported 145 artisans with fair wages and safe working conditions</span>
                         </li>
                         <li className="flex items-start gap-3">
-                          <SewingNeedle className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Scissors className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Provided skill development training for 85 women from marginalized communities</span>
                         </li>
                         <li className="flex items-start gap-3">
-                          <SewingNeedle className="h-5 w-5 text-rewear-green mt-0.5" />
+                          <Scissors className="h-5 w-5 text-rewear-green mt-0.5" />
                           <span>Created 12 new small businesses through our artisan entrepreneurship program</span>
                         </li>
                       </ul>
